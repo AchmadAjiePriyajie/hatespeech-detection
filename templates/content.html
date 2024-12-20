@@ -14,7 +14,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Bebas Sara</title>
+    <title>Ujaran Kebencian</title>
 
     <!-- bootstrap core css -->
     <link
@@ -54,7 +54,7 @@
       <!-- header section strats -->
 
       <header class="header_section">
-        <div class="header_top">
+        <!-- <div class="header_top">
           <div class="container-fluid">
             <div class="contact_link-container">
               <a
@@ -66,7 +66,7 @@
               </a>
               <a href="https://wa.me/082111018492" class="contact_link2">
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                <span> Call : +62 82111018492 </span>
+                <span> Call : +62 82000000 </span>
               </a>
               <a href="mailto:informatics@uinsgd.ac.id" class="contact_link3">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -74,12 +74,12 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="header_bottom">
           <div class="container-fluid">
             <nav class="navbar navbar-expand-lg custom_nav-container">
               <a class="navbar-brand" href="{{ url_for('home') }}">
-                <span style="color: black"> BebasSARA </span>
+                <span style="color: black"> Jaga Kata </span>
               </a>
               <button
                 class="navbar-toggler"
@@ -102,7 +102,7 @@
                     <a
                       class="nav-link"
                       href="{{ url_for('home') }}"
-                      style="color: black"
+                      style="color: rgb(0, 0, 0)"
                       onmouseover="this.style.color='white'"
                       onmouseout="this.style.color='black'"
                       >Beranda
@@ -141,10 +141,10 @@
             </div>
           </div>
           <div class="labeled">
-            {% if prediction_text == "Ujaran Kebencian" %}
+            {% if prediction_text == "Kata aman" %}
             <label class="hasilujr">Prediksi :&nbsp;</label>
-            <div class="hasilujr" style="font-weight: bold; color: red">
-              {{ prediction_text }} &#x1F494;
+            <div class="hasilujr" style="font-weight: bold; color: green">
+              {{ prediction_text }} &#x1F49D;
             </div>
             {% elif prediction_text == "nullo" %}
             <div class="hasilujr" style="font-weight: bold">
@@ -152,10 +152,10 @@
             </div>
             {% else %}
             <label class="hasilujr">Prediksi :&nbsp;</label>
-            <div class="hasilujr" style="font-weight: bold; color: green">
-              {{ prediction_text }} &#x1F49D;
+            <div class="hasilujr" style="font-weight: bold; color: red">
+              {{ prediction_text }} &#x1F494;
             </div>
-            {% endif %}
+            {% endif %}
           </div>
         </div>
         {% endif %}
