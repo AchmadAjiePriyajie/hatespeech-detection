@@ -378,7 +378,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #f1db25;
+  background-color: #33f408;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -418,7 +418,7 @@ a:focus {
   height: 20px;
   border-radius: 100%;
   text-align: center;
-  background-color: #f1db25;
+  background-color: #33f408;
   opacity: 1;
   border: none;
   margin: 0 4px;
@@ -677,7 +677,7 @@ a:focus {
 .contact_section .contact_form-container button {
   display: inline-block;
   padding: 10px 60px;
-  background-color: #f1db25;
+  background-color: #33f408;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -776,7 +776,7 @@ a:focus {
 .team_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #f1db25;
+  background-color: #33f408;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
